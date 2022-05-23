@@ -1,0 +1,8 @@
+@model string
+<h1>Upload files</h1>
+<form asp-action="Upload" asp-controller="Main" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="files"/><br>
+    <input type="submit" value="Загрузить" />
+</form>
+<h3>@Model</h3>

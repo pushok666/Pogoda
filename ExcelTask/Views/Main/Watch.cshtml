@@ -1,0 +1,32 @@
+@model IEnumerable<ExcelTask.ViewModel.PogodaVM>
+
+<div class="dropmenu">
+    <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="/Main/Watch/1">Январь</a>
+                <a href="/Main/Watch/2">Февраль</a>
+                <a href="/Main/Watch/3">Март</a>
+                <a href="/Main/Watch/4">Апрель</a>
+                <a href="/Main/Watch/5">Май</a>
+                <a href="/Main/Watch/6">Июнь</a>
+                <a href="/Main/Watch/7">Июль</a>
+                <a href="/Main/Watch/8">Август</a>
+                <a href="/Main/Watch/9">Сентябрь</a>
+                <a href="/Main/Watch/10">Октябрь</a>
+                <a href="/Main/Watch/11">Ноябрь</a>
+                <a href="/Main/Watch/12">Декабрь</a>
+                    
+            </div>
+        </div> 
+    </div>
+    @if(Model is not null)
+    {
+        @foreach (var item in Model)
+        {
+            <p>@item.DateData.Date | @item.HourAndData.Hour | @item.HourAndData.Temperature</p>
+        }
+    }
+</div>
+
+

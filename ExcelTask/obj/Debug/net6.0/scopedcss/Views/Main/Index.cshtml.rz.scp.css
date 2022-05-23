@@ -1,0 +1,24 @@
+#line_block[b-ncahgpsoxp] { 
+    width:150px; 
+    height:80px; 
+    background:#f1f1f1; 
+    float:right;
+    margin: 10px 15px 15px 10px; 
+    text-align:center;
+    padding: 10px;
+    vertical-align: middle;
+    display: table-cell;
+    }
+a[b-ncahgpsoxp]{
+    text-decoration: none;
+}
+.Head[b-ncahgpsoxp]{
+    position:absolute;
+    left:50%;
+    top:50%;
+    right: 50%;
+    margin:-100px 0 0 -150px;
+    width: 360px;
+    height: 170px;
+    background-color:cornflowerblue;
+}
